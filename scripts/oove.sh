@@ -27,7 +27,7 @@ if [[ $rc0 -ne 0 || $rc1 -ne 0 || $rc2 -ne 0 ]]; then
 	echo -e "Error downloading one or more required files; cannot continue"
 	exit 1
 fi
-
+echo -e "Make sure to insert an external device and/or that you have at least 4.5 GB of free space left on either your internal memory or your external device. before installing. Press ctrl+c to cancel installation at any time."
 source ./install.sh
 source ./core.sh
 source ./i3-dep.sh
