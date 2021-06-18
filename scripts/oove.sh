@@ -13,7 +13,7 @@ else
 fi
 
 #get support scripts
-echo -e "Downloading support files..."
+echo -e "/nDownloading support files..."
 rm -rf install.sh >/dev/null 2>&1
 rm -rf core.sh >/dev/null 2>&1
 rm -rf i3-dep.sh >/dev/null 2>&1
